@@ -10,12 +10,12 @@ const NewArrivals = () => {
             const latestData=items.slice(items.lenth-9, 8);
             setNewItem(latestData);
            },[items]);
-            
   return (
     < >
        <div className="text-center m-5 font-baleny font-bold  text-3xl text-emerald-900 mt-20 mb-10 underline">New Arrival</div>
       <div className="w-full flex items-center  whitespace-nowrap justify-center flex-wrap gap-9 my-10">
          {
+          newItem[0]?(
             newItem.map((item, index)=>{
                 return(
                     <ProductCard
@@ -28,6 +28,9 @@ const NewArrivals = () => {
 								/>
                 )
             })
+          ):(<div className="min-h-[200px] min-w-32 flex justify-center items-center animate-pulse bg-gray-200 video">
+					<p>loading...</p>
+				</div>)
          }
       </div>
     </>

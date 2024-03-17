@@ -13,7 +13,7 @@ const productCard = ({loading, brand ,model , price, image,_id}) => {
             <div className=" font-semibold">{model}</div>
             <div>₹{price}</div>
         </div>
-        </>):(<div className="min-h-[150px] flex justify-center items-center animate-pulse bg-gray-200 video">
+        </>):(<div className="min-h-[200px] min-w-32 flex justify-center items-center animate-pulse bg-gray-200 video">
 					<p>{loading}</p>
 				</div>)
        }
