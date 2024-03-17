@@ -27,7 +27,7 @@ const checkOut = async (req, res) => {
 			}),
 
 			success_url: 'https://wowch.vercel.app/success',
-			cancel_url: 'https://wowch.vercel.app/success',
+			cancel_url: 'https://wowch.vercel.app/cancel',
 		};
 
 		const session = await stripe.checkout.sessions.create(params);
