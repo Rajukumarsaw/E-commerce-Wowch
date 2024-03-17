@@ -1,6 +1,6 @@
 
 import BrandList from "../components/BrandList"
-import NewArrivals from "../components/newArrivals"
+import NewArrivals from "../components/NewArrivals"
 import Banner from '../components/Banner'
 //import { useSelector } from "react-redux"
 const Home = () => {
