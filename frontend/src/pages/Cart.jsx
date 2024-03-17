@@ -1,4 +1,4 @@
-import CartProduct from "../components/cartProduct";
+import CartProduct from "../components/CartProduct";
 import { useSelector } from "react-redux";
 import emptyCart from "../assets/empty.gif";
 import toast from "react-hot-toast";
