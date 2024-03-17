@@ -9,9 +9,9 @@ import { Provider } from "react-redux";
 import FilteredProduct from './pages/FilteredProduct.jsx'
 import ProductPage from './productPage.jsx'
 import ProductDetails from './pages/ProductDetails.jsx'
-import Cart from './pages/cart.jsx'
+import Cart from './pages/Cart.jsx'
 import SignUp from './pages/signup.jsx'
-import Login from './pages/login.jsx'
+import Login from './pages/Login.jsx'
 import Success from './pages/success.jsx'
 import Cancel from './pages/cancel.jsx'
  const router=createBrowserRouter(
