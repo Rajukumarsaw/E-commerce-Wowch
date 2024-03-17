@@ -4,7 +4,11 @@ const {urlencoded}=require('body-parser');
 require('dotenv').config();
 const cors=require('cors');
 //middleware
-app.use(cors());
+app.use(cors({
+    origin:["https://wowch.vercel.app/"],
+    methods:["POST", "GET"],
+    credentials:true
+}));
 app.use(express.json());
 app.use(urlencoded({ extended: true }));
 const userRoute=require('./routes/userRoutes');
