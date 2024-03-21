@@ -1,6 +1,6 @@
 	{
     	  "rewrites": [
-    	    { "source": "/(.*)", "destination": "https://wowch-zb73.onrender.com" }
+    	    { "source": "/(.*)", "destination": "https://wowch.vercel.app/" }
     	  ]
     }
     
