@@ -4,8 +4,8 @@ import RatingStar from "react-rating-stars-component"
 import { useSelector, useDispatch} from "react-redux";
 import { addCartItem } from "../store/productSlice";
 import { useEffect, useState } from "react";
+import toast from "react-hot-toast";
 const ProductDetails = () => {
-  const cartitm = useSelector((state) => state.products.cartItem);
     const option={
         edit:false,
         color:"rgba(20,20,20,0.1)",
@@ -28,8 +28,8 @@ const ProductDetails = () => {
 
    const dispatch=useDispatch();
   const HandleClickbutton=()=>{
+    toast("Item added to the cart");
        dispatch(addCartItem(Product));
-       console.log(cartitm);
   }
 
   
