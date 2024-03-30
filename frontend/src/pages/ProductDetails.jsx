@@ -19,6 +19,7 @@ const ProductDetails = () => {
     console.log(id);
     const [Product, setProduct]=useState({});
     useEffect(()=>{
+         window.scrollTo(0,0);
     const selectedProduct = productsState.filter(
       (item) => item._id === id
     )[0];
@@ -53,7 +54,7 @@ const ProductDetails = () => {
             </div>
             <div className="font-bold">description</div>{" "}
             <div>{Product.description}</div>
-            <div className="mt-2 font-semibold text-xl">{Product.price}</div>
+            <div className="mt-2 font-semibold text-xl">₹{Product.price}</div>
             <button className="h-8 md:h-10 w-9/12 m-6 bg-green-700 rounded-lg" onClick={HandleClickbutton}>
               Add to Cart
             </button>
