@@ -15,7 +15,7 @@ export function Footer() {
               <div>
                 <p className="mb-4  text-base font-medium">The Premium and Luxury Watch Brand</p>
                 <p className="text-sm text-gray-600">
-                  &copy; Copyright 2024. All Rights Reserved by DevUI.
+                  &copy; Copyright 2024. All Rights Reserved by Wowch.
                 </p>
               </div>
             </div>

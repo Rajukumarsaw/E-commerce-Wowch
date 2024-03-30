@@ -28,9 +28,9 @@ const ProductDetails = () => {
 
    const dispatch=useDispatch();
   const HandleClickbutton=()=>{
-    toast("Item added to the cart");
        dispatch(addCartItem(Product));
-  }
+       toast("Item added");
+  } 
 
   
   return (
