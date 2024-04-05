@@ -9,6 +9,7 @@ import axios from 'axios';
 import { useDispatch } from 'react-redux';
 import { setAllProducts } from './store/productSlice';
 import { setUserInfo } from "./store/userslice";
+import { Toaster } from 'react-hot-toast';
 function App() {
   const dispatch=useDispatch();
   const dataFromLocalStorage = JSON.parse(localStorage.getItem("account"));
@@ -28,7 +29,7 @@ function App() {
     <Header/> 
     <Outlet/>
     <Footer/>
-    
+    <Toaster/>
     </>
   )
 }

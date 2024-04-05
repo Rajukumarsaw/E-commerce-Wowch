@@ -3,7 +3,6 @@ import { useSelector } from "react-redux";
 import emptyCart from "../assets/empty.gif";
 import toast from "react-hot-toast";
 import { loadStripe } from "@stripe/stripe-js";
-
 const Cart = () => {
     const cartitems = useSelector((state) => state.products.cartItem);
     const userState = useSelector((state) => state.user.userInfo);
