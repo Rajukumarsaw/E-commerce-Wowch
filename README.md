@@ -92,4 +92,4 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Contact
 For any inquiries, please contact:
-- Raju Kumar: rajukumarsaw184@gmail.co
+- Raju Kumar: rajukumarsaw184@gmail.com
